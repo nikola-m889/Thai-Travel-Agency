@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.h1-main {
+    font-size: 70px;
+    background-color: red;
+    /*background-image: linear-gradient(to right, #3333ff 20%, #ff9900 94%);*/
+    /*background-image: linear-gradient(to right, #0066ff 27%, #ff9900 66%);*/
+    background-image: linear-gradient(to right, #33eeffda 31%, #ff9900 56%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgba(146, 175, 166, 0.274);
+    background-image: url('../img/pexels-nikki-williams-3334821-min.jpg');
+    background-repeat: no-repeat;
+}
+
+.header-vh {
+    clear: both;
+    overflow: hidden;
+}
+
+header {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.vid-vh {
+    position: absolute;
+    bottom:0;
+    right: 0;
+    min-width:100%;
+    min-height: 100%;
+}
+
+.navigation {
+    position: absolute;
+    min-height: 60px;
+    width: 100%;
+    background: rgba(0,0,0,0.25);
+    color: #fff;
+}
+
+.logo {
+    float: left;
+    margin-left: 20px;
+}
+
+.nav-menu {
+    float: right;
+    list-style: none;
+    margin: 0 4px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin:0 5px;
+    margin-top:40px
+}
+
+.nav-menu li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-menu li .a1{
+    color: #49e7fb;
+    font-weight: 800;
+}
+
+.nav-menu li .a1:hover {
+    color: #9ef4ff;
+}
+
+.nav-menu li .a2{
+    color: #79defd;
+    font-weight: 800;
+}
+
+.nav-menu li .a2:hover {
+    color: #aaebff;
+}
+
+.nav-menu li .a3{
+    color: #dcefff;
+    font-weight: 800;
+}
+
+.nav-menu li .a3:hover {
+    color: #fcfdfd;
+}
+
+.nav-menu li .a4{
+    color: #fabb78;
+    font-weight: 800;
+}
+
+.nav-menu li .a4:hover{
+    color: #fdd5a9;
+    
+}
+
+.nav-menu li .a5{
+    color: #f67904;
+    font-weight: 800;
+}
+
+.nav-menu li .a5:hover{
+    color: #fb9292;
+}
+
+/* Burger menu */
+
+.mobile-button {
+    width: 55px;
+    height: 55px;
+    margin-top: 25px;
+    margin-right: 25px;
+    background: url('../img/menu-test.png');
+    background-size: cover;
+    background-position: center;
+    float: right;
+    display: none;
+}
+
+.mobile-menu {
+    background-color: rgba(236, 169, 24, 0.37);
+    height: 0.01px;
+    width: 100%;
+    position: fixed;
+    margin-top: 104px;
+    transition: all 0.4s ease-in-out;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    visibility: hidden;
+    transition: 0.4s ease-in-out;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #f67904;
+    font-size:30px;
+    font-weight: 500;
+    line-height: 1.45;
+    transition: all 0.4s ease-in-out
+}
+
+.content-vh {
+    position: relative;
+    text-align: center;
+    top:30%;
+    
+}
+
+.content-vh h1 {
+    color: rgb(246, 246, 246);
+    font-size: 70px;
+    transition: 1.1s;
+}
+
+.content-vh p {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 900;
+    transition: 1.5s;
+    text-shadow:0px 5px 15px #28f5eb;
+}
+
+.content-vh a {
+    text-decoration: none;
+    font-size: 30px;
+}
+.button-vh {
+    display: inline-block;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 45px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    background: transparent;
+    font-size: 30px;
+    margin-top: 20px;
+    transition: 0.25s ease-in-out;
+    background-color: rgba(19, 188, 255, 0.377); 
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 218, 10, 0.377);
+}
+
+
+/* Tours */
+
+#tours {
+    margin: 50px 10px;
+}
+
+.h2-tour {
+    padding-top: 25px;
+    text-align: center;
+    font-size:37px;
+}
+
+.p-tour {
+    text-align: center;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    text-shadow:0px 5px 15px #28f5eb;
+}
+
+.row-tour {
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: center;
+}
+
+.column-tour {
+    max-width: 30%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 7px 15px 7px 15px;
+    text-align: center;
+}
+
+.image-fluid {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-zoom {
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+}
+
+.image-a {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/locations/bangkok.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    transition: all .5s;
+}
+
+.image-b {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/locations/phuket.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    transition: all .5s;
+}
+
+.image-c {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/locations/pattaya.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    transition: all .5s;
+}
+
+.image-d {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/locations/kho-samui.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    transition: all .5s;
+}
+
+.image-e {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/locations/krabi.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    transition: all .5s;
+}
+
+.image-f {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/locations/chiang-mai.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    transition: all .5s;
+}
+
+.image-g {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/locations/ayutthaya.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    transition: all .5s;
+}
+
+.image-h {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/locations/koh-phangan.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    transition: all .5s;
+}
+
+.image-i {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/locations/kanchanaburi.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size:cover;
+    transition: all .5s;
+}
+
+.image-zoom:hover .image-a,
+.image-zoom:focus .image-a {
+    transform: scale(1.2);
+}
+
+.image-zoom:hover .image-b,
+.image-zoom:focus .image-b {
+    transform: scale(1.2);
+}
+
+.image-zoom:hover .image-c,
+.image-zoom:focus .image-c {
+    transform: scale(1.2);
+}
+
+.image-zoom:hover .image-d,
+.image-zoom:focus .image-d {
+    transform: scale(1.2);
+}
+
+.image-zoom:hover .image-e,
+.image-zoom:focus .image-e {
+    transform: scale(1.2)
+}
+
+.image-zoom:hover .image-f,
+.image-zoom:focus .image-f {
+    transform: scale(1.2);
+}
+
+.image-zoom:hover .image-g,
+.image-zoom:focus .image-g {
+    transform: scale(1.2);
+}
+
+.image-zoom:hover .image-h,
+.image-zoom:focus .image-h {
+    transform: scale(1.2);
+}
+
+.image-zoom:hover .image-i,
+.image-zoom:focus .image-i {
+    transform: scale(1.2);
+}
+
+/* Trip Plan */
+
+
+.plan-tabs {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin:20px 30px;
+    text-align: center;
+}
+
+.t-border {
+    border-bottom:5px solid #fabb78;
+}
+
+.travel-content {
+    height: 800px;
+    width: 95%;
+    margin:auto;
+    margin-bottom: 30px;
+}
+
+.travel-content h4 {
+    font-size: 18px;
+    padding: 30px 20px 0px 20px;
+    color: #111;
+}
+.travel-content p {
+    font-size: 18px;
+    padding: 0px 20px 10px 20px;
+    color:rgb(5, 5, 5);
+}
+
+.travel-content ul {
+    padding-bottom: 20px;
+}
+
+
+#id-1-content,
+#id-2-content,
+#id-3-content,
+#id-4-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+.h3-tab {
+    color: #fff;
+    font-size: 22px;
+    text-shadow:0px 5px 15px #28f5eb;
+}
+
+#id-1-content {
+    background: linear-gradient(rgba(226, 225, 225, 0.7),rgba(255, 254, 254, 0.7)),url('../img/passport.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+#id-2-content {
+    background:linear-gradient(rgba(226, 225, 225, 0.5),rgba(255, 254, 254, 0.5)), url('../img/flight.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#id-3-content {
+    background:linear-gradient(rgba(226, 225, 225, 0.5),rgba(255, 254, 254, 0.5)), url('../img/hotel-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#id-4-content {
+    background:linear-gradient(rgba(226, 225, 225, 0.5),rgba(255, 254, 254, 0.5)), url('../img/tours-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* About */
+
+
+#about {
+    width: 95%;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom:20px;
+    font-size: 20px;
+    color: black;
+    background:linear-gradient(rgba(226, 225, 225, 0.5),rgba(255, 254, 254, 0.5)),url('../img/thai-beach.jpg');
+}
+
+
+.thai-span {
+    color:#f67904;
+    font:bold;
+}
+
+#about h4 {
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #111;
+}
+#about .p-about {
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    color:rgb(5, 5, 5);
+}
+
+#about p {
+    padding-left: 10px;
+}
+
+/* Booking */
+
+#book {
+    width: 95%;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+#book form {
+    padding-top: 10px;
+   
+}
+.column-form {
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.column-one {
+    width: 48%;
+    float: left;
+    padding-left: 20px;
+}
+
+.column-two {
+    width: 48%;
+    float: right;
+}
+
+input {
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select {
+    width: 95%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+textarea {
+    width: 95%;
+    padding-top: 46px;
+    padding-bottom: 46px;
+}
+
+button[type="submit"] {
+    padding: 20px 30px;
+    background-color: rgb(32, 222, 255);
+    font-size: 20px;
+    display:inline-block;
+    margin-top: 40px;
+    float: none;
+    border: none;
+    transition: 0.25s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(248, 189, 121);
+    cursor: pointer;
+}
+
+.button-a {
+    margin: auto;
+    width: 100%;
+    display: flex; 
+}
+
+.button-a button {
+    margin-left: 45%;
+}
+
+
+@media(max-width: 1000px) {
+ 
+    .column-tour {
+         max-width: 25%;
+         margin-top: 20px;
+     }
+
+     #about {
+         margin-top: 150px;
+     }
+ }
+
+ @media(max-width: 900px) {
+ 
+    .nav-menu {
+        display: none
+    }
+
+    .mobile-button {
+        display: block;
+    }
+}
+
+ @media(max-width: 850px) {
+
+    .logo {
+        float: left;
+    }
+
+    .travel-content {
+        height: 800px;
+        width: 100%;
+        margin:auto;
+        margin-bottom: 30px;
+    }
+
+    #about {
+        width: 100%;
+        /*margin-top: 75px;*/
+        margin-top: 390px;
+    }
+
+    .column-tour {
+         max-width: 100%;
+         margin-top: 20px;
+     }
+
+     .column-one,
+     .column-two
+     {
+         float: none;
+         text-align: center;
+         margin:auto;
+         width: 90%;
+     }
+
+     textarea {
+         width: 100%;
+     }
+
+     .button-a {
+        margin:auto;
+        margin-top: 30px;
+        width: 300px;
+        display: flex;
+        position: relative; 
+        overflow: hidden; 
+        /*border: 1px solid brown;*/
+    }
+    
+    .button-a button {
+        margin-left: 35%;
+    }
+
+ }
+
+ @media(max-width: 600px) {
+ 
+    #about {
+        width: 100%;
+        /*margin-top: 75px;*/
+        margin-top: 390px;
+    }
+
+
+ }
