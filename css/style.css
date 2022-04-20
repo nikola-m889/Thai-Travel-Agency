@@ -685,6 +685,36 @@ button[type="submit"]:hover {
         /*margin-top: 75px;*/
         margin-top: 390px;
     }
+    
+  .content-vh h1 {
+    font-size: 50px;
+  }
 
+  .content-vh p {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  .content-vh a {
+    font-size: 20px;
+  }
+
+  .button-vh {
+    padding: 8px 17px;
+    font-size: 22px;
+  }
+
+  .logo img {
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+  }
+
+  .mobile-button {
+    width: 40px;
+    height: 40px;
+    margin-top: 22px;
+    margin-right: 25px;
+  }
 
  }
